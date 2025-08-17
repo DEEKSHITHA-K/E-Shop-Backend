@@ -23,7 +23,7 @@ public class BackendApplication {
                 // Allow all origins, methods, and headers for simplicity during development.
                 // For production, replace "*" with your actual frontend URL (e.g., "http://localhost:3000" or your Cloud Storage URL).
                 registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:3000", "http://localhost:5173") // Add Vite's default port too
+                        .allowedOrigins("http://localhost:3000", "http://localhost:5173", "https://e-shop-frontendapp.netlify.app") // Add Vite's default port too
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true); // Allow cookies/authorization headers
