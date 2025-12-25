@@ -1,27 +1,28 @@
-# E-Shop Frontend – Attempt 2 (Cost-Optimized Setup)
+# E-Shop Backend – Attempt 2 (Render Deployment)
 
-This repository contains the **React frontend** for the E-Shop e-commerce application.
+This repository contains the **Spring Boot backend service** for the E-Shop e-commerce application.
 
-⚠️ This frontend is part of **Attempt 2**, a cost-optimized deployment where:
-- Backend is hosted on **Render**
+⚠️ This backend belongs to **Attempt 2**, a cost-optimized architecture where:
+- Backend is deployed on **Render**
 - Database is hosted on **Railway (MySQL)**
 - Frontend is hosted on **Netlify**
 
-This setup was created to improve deployment stability while minimizing cloud costs.
+This version focuses on stable REST API deployment, database integration, and practical cloud cost management.
 
 ---
 
 ## 🛠 Tech Stack
-- React.js
-- JavaScript
-- HTML, CSS
-- REST API integration
+- Java
+- Spring Boot
+- REST APIs
+- MySQL
+- Render
 
 ---
 
-## 🌐 Live Application
-- Frontend (Netlify):  
-  https://e-shop-frontendapp.netlify.app/
+## 🌐 Deployed Backend
+- Render URL:  
+  https://e-shop-backend-g3nt.onrender.com
 
 ---
 
@@ -34,11 +35,15 @@ This setup was created to improve deployment stability while minimizing cloud co
 ## 🔗 Related Repositories & Links
 
 ### Attempt 2
-- Backend (Render):  
-  https://github.com/DEEKSHITHA-K/E-Shop-Backend
+- Frontend (Netlify):  
+  https://github.com/DEEKSHITHA-K/E-Shop-Frontend
 
 ### Attempt 1
 - Frontend (GCP):  
   https://github.com/DEEKSHITHA-K/Shopify_Frontend
 - Backend (GCP):  
   https://github.com/DEEKSHITHA-K/ShopifyBackend
+
+---
+
+> ⚠️ Database hosting links are intentionally not shared for security reasons.
